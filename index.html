@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      .font-manrope{
+        font-family: 'Manrope', sans-serif;
+      }
+    </style>
+</head>
+<body class="container mx-auto font-manrope">
+    <header>
+        <nav class="mt-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a><span class="text-red-500">Home</span></a></li>
+                      <li class="text-[#424247]"><a>About</a></li>
+                      <li class="text-[#424247]"><a>Pages</a></li>
+                      <li class="text-[#424247]"><a>Blog</a></li>
+                      <li class="text-[#424247]"><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-4xl">Hockey<span class=" text-[#FF4240]">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1" >
+                    <li><a class="text-[#FF4240]">Home</a></li>
+                    <li class="text-[#424247]"><a>About</a></li>
+                    <li class="text-[#424247]"><a>Pages</a></li>
+                    <li class="text-[#424247]"><a>Blog</a></li>
+                    <li class="text-[#424247]"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn btn-error text-white text-lg">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <section class="mt-12">
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </section>
+    </header>
+    <main>
+      <section class="mt-16 text-center">
+        <h2 class="text-4xl text-[#131318] font-extrabold">Professional Hockeys Club</h2>
+        <p class="text-[rgba(19, 19, 24, 0.60)] font-medium mt-6">
+          Explore the world of top-tier hockey teams and their elite strategies. We delve into the <br> world of elite hockey, exploring the strategies.
+        </p>
+        <div class="mt-12 flex flex-col lg:flex-row gap-8 px-10">
+          <div>
+            <div class="radial-progress" style="--value:87; --radial-progress-color: #b03f3d;" role="progressbar">87%</div>
+            <h4 class="mt-6 mb-4 text-[#131317] text-xl font-semibold]">Prayer-Facility</h4>
+            <p class="text-[rgba(19, 19, 24, 0.60)]">Our club have well decorated prayer facility for each religion.</p>
+          </div>
+          <div>
+            <div class="radial-progress" style="--value:95; --radial-progress-color:#49D293;" role="progressbar">95%</div>
+            <h4 class="mt-6 mb-4 text-[#131317] text-xl font-semibold]">Experienced Coach</h4>
+            <p class="text-[rgba(19, 19, 24, 0.60)]">Our club have experienced, well trained, international standard coach to train</p>
+          </div>
+          <div>
+            <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
+            <h4 class="mt-6 mb-4 text-[#131317] text-xl font-semibold]">Senior Player</h4>
+            <p class="text-[rgba(19, 19, 24, 0.60)]">There are lots of senior players, who can help the new players in many ways</p>
+          </div>
+          <div>
+            <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
+            <h4 class="mt-6 mb-4 text-[#131317] text-xl font-semibold]">Training Ground</h4>
+            <p class="text-[rgba(19, 19, 24, 0.60)]">Our club have own training ground for practice and playing match.</p>
+          </div>
+        </div>
+      </section>
+      <section class="mt-16 text-center">
+        <h2 class="text-4xl text-[#131318] font-extrabold">Program Sections</h2>
+        <p class="text-[rgba(19, 19, 24, 0.60)] font-medium mt-6">
+          Our club have lots of program for different category players. Here a <br> few top programs mentioned below
+        </p>
+        <div class="mt-20 grid grid-cols-2 gap-6">
+          <div class="relative">
+            <div class="absolute inset-0 bg-[url('Images/2.png')] bg-cover rounded-2xl"></div>
+            <div class="overlay absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+            <div class="relative text-left ms-10">
+              <h3 class=" pt-24 text-white text-3xl font-extrabold">Junior Program</h3>
+              <p class="text-white pr-10">
+                In our Junior Program, a comprehensive training platform designed for young. It's focuses on nurturing talent through age-appropriate skills development.
+              </p>
+              <button class="mb-11 mt-4 btn bg-[#FF4240] border-0 text-white">Register Now!</button>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="absolute inset-0 bg-[url('Images/3.png')] bg-cover rounded-2xl"></div>
+            <div class="overlay absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+            <div class="relative text-left ms-10">
+              <h3 class=" pt-24 text-white text-3xl font-extrabold">Teenager Program</h3>
+              <p class="text-white">
+                Our Teenager Program is tailored for young athletes aged 13-19, blending advanced hockey skills training with physical and mental development. 
+              </p>
+              <button class="mb-11 mt-4 btn bg-[#FF4240] border-0 text-white">Register Now!</button>
+            </div>
+            <div class="relative row-span-2">
+              <div class="absolute inset-0 bg-[url('Images/3.png')] bg-cover rounded-2xl"></div>
+              <div class="overlay absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+              <div class="relative text-left ms-10">
+                <h3 class=" pt-24 text-white text-3xl font-extrabold">Teenager Program</h3>
+                <p class="text-white">
+                  Our Teenager Program is tailored for young athletes aged 13-19, blending advanced hockey skills training with physical and mental development. 
+                </p>
+                <button class="mb-11 mt-4 btn bg-[#FF4240] border-0 text-white">Register Now!</button>
+              </div> 
+        </div>
+      </section>
+      <section class="mt-16">
+
+      </section>
+    </main>
+</body>
+</html>
